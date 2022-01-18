@@ -18,5 +18,7 @@ public class StepDefenition
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get(Testing_Url);
+        driver.close();
+        System.out.println("\n\nAutomation testing completed \n\n\n Thanks\nArun \n\n");
     }
 }
